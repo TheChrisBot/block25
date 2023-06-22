@@ -3,6 +3,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
+  background-color: darkslategray;
 }
 
 #app {
@@ -19,13 +20,16 @@ body {
 }
 
 #navbar {
+  font-size: 20px;
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
-  background-color: #222222;
-  color: white;
-  display: flex;
+  background-color: #5f268d;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: capitalize;
   align-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #navbar div {
@@ -38,15 +42,15 @@ body {
 }
 
 #colors-list div {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin-top: 40px;
   transition: all 1s ease;
 }
 
 .selected {
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
 /* colors */
